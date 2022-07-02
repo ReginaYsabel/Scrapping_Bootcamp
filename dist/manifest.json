@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Scrapper",
+    "version": "1.0.0",
+    "background":{
+        "service_worker":"sw.js"
+    },
+    "action":{
+        "default_title": "Click Me",
+        "default_popup": "/scripts/popup.html"
+    },
+    "permissions":["tabs", "scripting", "activeTab"]
+    
+    
+}
